@@ -19,7 +19,6 @@ apply plugin: "org.spongepowered.mixin"
 repositories {
     maven { url "http://repo.spongepowered.org/maven" }
     maven { url "http://chickenbones.net/maven/" }
-    maven { url "http://www.dimdev.org/maven" }
     maven { url "http://maven.tterrag.com/" }
     ivy {
         url "https://google.com/404"
@@ -64,7 +63,7 @@ sourceSets {
 }
 
 minecraft {
-    version "1.12.2-14.23.5.2768"
+    version "1.12.2-14.23.5.2847"
     runDir "run"
     mappings "stable_39"
     makeObfSourceJar false
